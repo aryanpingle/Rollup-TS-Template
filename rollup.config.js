@@ -10,7 +10,7 @@ const production = !process.env.ROLLUP_WATCH;
 export default {
 	input: 'src/index.ts',
 	output: {
-		dir: 'public',
+		dir: 'public/build',
 		format: 'iife', // immediately-invoked function expression — suitable for <script> tags
 	},
 	plugins: [
